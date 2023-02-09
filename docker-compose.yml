@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: ngoctaidhwar/nodejs-project
+    ports:
+      - "1997:1997"
+    restart: unless-stopped
